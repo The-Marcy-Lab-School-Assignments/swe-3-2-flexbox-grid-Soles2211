@@ -15,7 +15,7 @@ ul {
 body {
   font-family: Arial, sans-serif;
   color: #333;
-  padding: 20px;
+  padding: 20px; 
 }
 
 header {
@@ -46,3 +46,53 @@ footer {
 /* ================================ */
 /* Add your CSS below this line */
 /* ================================ */
+
+.picture-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  flex: 1;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  padding-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+h1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+
+figcaption{
+  font-weight: bold;
+}
+
+figcaption,
+p {
+  padding-bottom: 5px;
+}
